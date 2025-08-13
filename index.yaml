@@ -3,9 +3,9 @@ entries:
   payments:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-13T07:07:24.368469496Z"
+    created: "2025-08-13T07:10:38.258506224Z"
     description: A Helm chart for Kubernetes
-    digest: 1ad638df16eea58fde5d2457158f57c205f8d48521b37e60fc86ecea01435ee3
+    digest: f71954d65eab62984a827c4447054bb34646b3b4092052d16fc2c908497f466c
     name: payments
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   shipping:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-13T07:07:24.368634508Z"
+    created: "2025-08-13T07:10:38.258679437Z"
     description: A Helm chart for Kubernetes
-    digest: 2fb63ff239b3ea552e2cdb4e69b626a2a1206c72531f97c06c96ae7584273abb
+    digest: c3623abd0fc7aa56f237f04bcb67615dc0aeb7ef16af908fe3c9a6425056d152
     name: shipping
     type: application
     urls:
     - https://web-spec-wq.github.io/helm-repo/shipping-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-13T07:07:24.368181128Z"
+generated: "2025-08-13T07:10:38.25821839Z"
