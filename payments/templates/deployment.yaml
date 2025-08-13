@@ -17,7 +17,12 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
-          command: ['sh', '-c', 'echo {{ .Values.appMessage }}; sleep 3600']
+          command:
+            - sh
+            - -c
+            - |
+              echo "<html><body><h1>{{ .Values.appMessage }}</h1></body></html>" > /www/index.html
+              httpd -f -p {{ .Values.service.port }} -h /www
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
